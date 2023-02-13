@@ -1,5 +1,5 @@
 import React from "react"
-import bob from './images/bob.jpg,'
+import bob from './images/bob.jpg'
 import doctor from './images/doctor.jpg,'
 import babutalent from './images/babutalent.jpg,'
 import kidsfarm from './images/kidsfarm.jpg,'
