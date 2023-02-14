@@ -17,6 +17,8 @@
 //                     </li>
 //                     <li className='nav-item'>
 //                         <a href='#demo'>Contact</a>
+//                         <p>US telephone: +1 (615) 295 8440</p>
+//                         <p>Local calls in Kenya: +254 721 222 223 or +254 704 260 451</p>
 //                     </li>
 //                 </ul>
 //                 <div className='bottom'>
@@ -31,60 +33,109 @@
 // export default Footer
 
 
-import React from 'react'
-import "./Contactus.css"
-import { Link } from "react-router-dom";
+import './Footer.css'
 
-
-const Contactus = () => {
+const Footer = () => {
   return (
-    <div className='contact'>
-          <Link className="btn btn-light mx-1" to="/Home" role="button">
-            Back
-          </Link>
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-12 text-center">
-                    <h2 className="section-heading">Contact Us</h2>
-                </div>
+    <footer className="footer">
+      <div className="footerContainer">
+        <div className="footerColumn">
+          <div className="columnTitle">
+            Company
+            
+          </div>
+          <div className="columnText">
+            <div className="columnTextItem">
+              <a href="#">Home</a>
             </div>
-            <div className="row">
-                <div className="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate="">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                                <div className="form-group">
-                                    <input type="email" className="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                                <div className="form-group">
-                                    <input type="tel" className="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number."/>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="form-group">
-                                    <textarea className="form-control-msg" placeholder="Your Message" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
-                                    <p className="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div className="clearfix"></div>
-                            <div className="col-lg-12 text-center">
-                               
-                                <button type="submit" className="button">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div className="columnTextItem">
+              <a href="#">About</a>
             </div>
+            <div className="columnTextItem">
+              <a href="#">Our Work</a>
+            </div>
+            <div className="columnTextItem">
+              <a href="#">Future Goals</a>
+            </div>
+          </div>
         </div>
-    
-    </div>
+        <div className="footerColumn">
+          <div className="columnTitle">
+            Resources
+           
+          </div>
+          <div className="columnText">
+            <div className="columnTextItem">
+              <a href="#">Checks can be mailed to:</a>
+            </div>
+            <div className="columnTextItem">
+              <a href="#">ZYD Open Heart Inc.</a>
+            </div>
+            <div className="columnTextItem">
+              <a href="#">C/O: Rich Gradel</a>
+            </div>
+             
+             <div className="columnTextItem">
+              <a href="#">6140S 104th Street E. Ave, 
+              <br />Ste 700 Tulsa, OK 74133</a>
+            </div> 
+
+          </div>
+        </div>
+        <div className="footerColumn">
+          <div className="columnTitle">
+            Support Us
+            
+          </div>
+          <div className="columnText">
+            <div className="columnTextItem">
+              <a href="#">Our Pay Pal account</a>
+            </div>
+            {/* <div className="columnTextItem">
+              <a href="#">is Zaidi Ya Dreams</a>
+            </div> */}
+            <div className="columnTextItem">
+              <a href="#"> Open Heart Inc.</a>
+            </div>
+          </div>
+        </div>
+        <div className="footerColumn">
+          <div className="columnTitle">
+            Contact Us
+            
+          </div>
+          <div className="columnText">
+            <div className="columnTextItem">
+            US telephone: +1 (615) 295 8440
+            <br />
+            Local calls in Kenya: +254 721 222 223 <br /> or +254 704 260 451
+            </div>
+            
+            <div className="columnTextItem">
+              Email: <u><a href='#'>Koo7812345@netzero.com</a></u>
+              <br />
+              Email: <u><a href='#'>Koo7812345@outlook.com</a></u>
+            </div>
+            <div className="columnTextItem">
+              Address: Nairobi, <br/>Kenya
+            </div>
+          </div>
+        </div>
+        <div className="footerColumn">
+          <div className="columnTitle">
+            Join us and volunteer
+            <hr className='columnTitleHR'/>
+          </div>
+          <div className="columnText">
+            <span>
+              <input type="text" placeholder='Enter email...' className='newsletterEmailInput'/>
+              <input type="submit" value="Sign Up" className='newsletterEmailSubmit'/>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
   )
 }
 
-export default Contactus
+export default Footer

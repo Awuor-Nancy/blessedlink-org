@@ -13,7 +13,7 @@
 
 .footer ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .footer li {
@@ -37,43 +37,72 @@
 .line {
     margin-bottom: 1rem;
 }
+
+
+
+
  */
 
 
-.form-group {
+ .footer {
+    margin-top: 25px;
+    padding: 50px;
+    background-color: black;
+    color: #ca046b;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-evenly;
+  }
+  
+  .footerColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .columnTitle {
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .columnText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .columnTextItem a {
+    color: #ca046b;
+  }
+  
+  .newsletterEmailInput {
+    height: 25px;
+    padding: 25px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  span .newsletterEmailSubmit {
+    /* height: 25px; */
+    padding: 18px;
+    z-index: 20px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10%;
+    background-color: #ca046b;
 
-    margin-bottom: 24px;
-    font-family: "Merriweather", serif;
-}
-
-.form-group input,
-contact .form-group textarea {
-    padding: 17px;
-}
-
-.contact{
-    height: 100%;
-    background-image: url(./../images/food.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.form-control-msg{
-    margin-top: 7px;
-    height: 230px;
-    width: 600px;
-    border-radius: 5px;
-}
-.col-lg-12{
-    margin-top: 110px;
-}
-.section-heading{
-    margin-top: 20px;
-    color:black;
-    text-transform: uppercase;
-    font-family: "Merriweather", serif;
-
-}
-.button:hover{
-    background: lightpink;
-}
+  }
+  
+  .newsletterEmailSubmit:hover {
+    cursor: pointer;
+  }
