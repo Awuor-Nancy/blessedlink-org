@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Home.css'
 
 const Hero = () => {
@@ -13,13 +13,83 @@ const Hero = () => {
             </div>
 
             <div className="slider">
-                <div className="slide"></div>
-                <div className="slide"></div>
-                <div className="slide"></div>
-                <div className="slide"></div>
-                <div className="slide"></div>
-                <div className="slide"></div>
-                <div className="slide"></div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className='btn'>Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn">Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn">Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn">Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn" >Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn">Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div className="slide">
+                    <div className='slide-info'>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eius recusandae totam similique!
+
+                            <span>
+                                <button className="btn">Click Here</button>
+                            </span>
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>
