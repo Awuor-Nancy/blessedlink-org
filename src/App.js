@@ -3,10 +3,10 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Testimonials from './components/Testimonials'
-// import Contact from './components/Contact'
 import Demo from './components/Demo'
 import Ourpartners from './components/Ourpartners'
 import Footer from './components/Footer'
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <About />
       <Testimonials />
-      <Ourpartners />
+      {/* <Ourpartners /> */}
       <Demo />
       <Footer />
     </div>

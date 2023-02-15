@@ -32,7 +32,7 @@ const Testimonials = () => {
                     </div>
                     <div className='card'>
                         <img src={isaac} alt='Isaac'/>
-                        <p>happy since the business has been of help to my family and I, in food, giving out thanksgiving, 
+                        <p>I am happy since the business has been of help to my family and I, in food, giving out thanksgiving, 
                             helping my parents with the small amount I get from the business and small chama savings that I joined. 
                             Since I started of sandals selling business, things have been flowing nicely until the rise of economy in our country, demolition that took place in Kibera
                             Thank you so much for the support you gave me and am so much grateful, may the Almighty God bless you</p>

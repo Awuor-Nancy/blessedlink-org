@@ -1,7 +1,7 @@
 .hero {
-    background-color: var(--overlay);
+    background-color: #fff;
     color: #fff;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: relative;
 }
@@ -9,7 +9,7 @@
 .slide {
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     
    }
@@ -19,7 +19,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     animation: slider 12.5s infinite;

@@ -40,7 +40,7 @@
 
 .header .nav-item a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid #7171ff;
 }
 .logo, img{
     margin-right: 200px;

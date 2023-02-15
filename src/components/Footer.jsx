@@ -129,7 +129,7 @@ const Footer = () => {
           <div className="columnText">
             <span>
               <input type="text" placeholder='Enter email...' className='newsletterEmailInput'/>
-              <input type="submit" value="Sign Up" className='newsletterEmailSubmit'/>
+              <input type="submit" value="Submit" className='newsletterEmailSubmit'/>
             </span>
           </div>
         </div>
