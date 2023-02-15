@@ -1,5 +1,8 @@
 .hero {
+<<<<<<< HEAD
     background-color: #fff;
+=======
+>>>>>>> refs/remotes/origin/main
     color: #fff;
     height: 110vh;
     width: 100%;
@@ -13,6 +16,34 @@
     position: relative;
     
    }
+
+.slide-info {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 450px; 
+    background: #111;
+    border: 2px solid #1e1e1e; 
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.slide-info p{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+
+.slide-info span {
+    margin-top: 15px;
+    display: block;
+}
+
+.slide-info span button{
+   font-size: 20px;
+   width: 150px;
+}
     
    .slider .slide {
     position: absolute;
