@@ -1,10 +1,10 @@
 import {useState} from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
+// import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import logo from './images/logo.png'
 
 import './Navbar.css'
-import Testimonials from './Testimonials'
+// import Testimonials from './Testimonials'
 
 
 const Navbar = () => {
@@ -17,16 +17,16 @@ const Navbar = () => {
     return (
         <header>
             <div className="brand">
-               <NavLink exact to="/"> <img src={logo} alt="logo" title='brand'/></NavLink>
+               <Link exact to="/"> <img src={logo} alt="logo" title='brand'/></Link>
             </div>
 
             <div className="nav-wrapper">
                 <nav>
-                    <NavLink exact to="/">Home</NavLink>
-                    <NavLink to="/about">About</NavLink>
-                    <NavLink to="/work">Our Work</NavLink>
-                    <NavLink to="/future-goals">Future Goals</NavLink>
-                    <NavLink to="/testimonial">Testimonial</NavLink>
+                    <Link exact to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/work">Our Work</Link>
+                    <Link to="/future-goals">Future Goals</Link>
+                    <Link to="/testimonial">Testimonial</Link>
                 </nav>
                 <div className="btn-container">
                     <button type='button' className='donate-btn'>Donate</button>

@@ -1,7 +1,7 @@
 import Button from './Button';
 import './Home.css'
 
-const Hero = () => {
+const Home = () => {
     return (
         <div className='hero'>
              <div className='content'>
@@ -91,4 +91,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Home
