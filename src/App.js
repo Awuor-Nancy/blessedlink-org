@@ -13,15 +13,6 @@ import { BrowserRouter as Router, Routes, Route ,} from 'react-router-dom'
 function App() {
   return (
     <div>
-<<<<<<< HEAD
-      <Navbar />
-      <Home />
-      <About />
-      <Testimonials />
-      {/* <Ourpartners /> */}
-      <Demo />
-      <Footer />
-=======
       <Router>
         <Navbar />
         <Routes>
@@ -33,7 +24,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
->>>>>>> refs/remotes/origin/main
+
     </div>
   );
 }
