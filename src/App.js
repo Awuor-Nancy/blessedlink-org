@@ -23,10 +23,6 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-<<<<<<< HEAD
-
-=======
->>>>>>> 5765d0fe4535586774181e8343ae81e443eab235
     </div>
   );
 }

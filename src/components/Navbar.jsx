@@ -34,40 +34,6 @@ const Navbar = () => {
             </div>
         </header>
     )
-        
-        // <div className='header'>
-        //     <nav className='navbar'>
-        //         <a href='/' className='logo'>
-        //             <img src={logo} alt='logo' />
-        //         </a>
-        //         <div className='hamburger' onClick={handleClick}>
-        //             {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-        //                 : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
-
-        //         </div>
-        //         <ul className={click ? "nav-menu active" : "nav-menu"}>
-        //             <li className='nav-item'>
-        //                 <a href='/' onClick={closeMenu}>Home</a>
-        //             </li>
-        //             <li className='nav-item'>
-        //                 <a href='#about' onClick={closeMenu}>About</a>
-        //             </li>
-        //             <li className='nav-item'>
-        //                 <a href='#about' onClick={closeMenu}>Our Work</a>
-        //             </li>
-        //             <li className='nav-item'>
-        //                 <a href='#about' onClick={closeMenu}>Future Goals</a>
-        //             </li>
-        //             <li className='nav-item'>
-        //                 <a href='#testimonials' onClick={closeMenu}>Testimonials</a>
-        //             </li>
-        //             <li className='nav-item'>
-        //                 <a href='#demo' onClick={closeMenu}>Contact</a>
-        //             </li>
-        //         </ul>
-        //     </nav>
-        // </div>
-    // )
 }
 
 export default Navbar
